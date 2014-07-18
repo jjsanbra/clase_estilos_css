@@ -1,0 +1,70 @@
+/* Importación de Fuentes de Google -  */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Pacifico);
+
+/* Estilos para el Body */
+body {
+	font-family: "Lato", sans-serif;
+}
+
+/* Estilos para el h1 */
+h1 {
+	font-family: "Pacifico", serif;
+	font-size: 50px;
+}
+
+/* Estilos para h2 */
+h2 {
+	font-weight: 700;
+}
+
+/********************************************************************/
+
+
+/* Estilos para nav superior */
+
+#nav-sup ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 15px;
+}
+
+#nav-sup ul li a:link, #nav-sup ul li a:visited {
+	color: #f00;
+}
+
+#nav-sup ul li a:hover {
+	color: #000;
+}
+
+#nav-sup ul li a:active {
+	color: #02a;
+}
+
+/* Estilos para el Section */
+section {
+	background-color: #070;
+	color: #fff;
+	text-align: justify;
+}
+
+/* Estilos para el Aside */
+aside {
+	color: #070;
+	text-align: center;
+}
+
+/* Estilos para el Footer */
+
+#nav-footer {
+	background-color: #999;
+}
+
+#nav-footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 15px;
+}
+
+#nav-footer ul li a:link, #nav-footer ul li a:visited, #nav-footer ul li a:hover, #nav-footer ul li a:active {
+	color: #fff;
+}
